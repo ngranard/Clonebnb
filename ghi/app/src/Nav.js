@@ -57,14 +57,6 @@ function Nav() {
                     Login
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/users/logout"
-                  >
-                    Logout
-                  </Link>
-                </li>
               </ul>
             </li>
 

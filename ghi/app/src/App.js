@@ -1,15 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage';
 import Nav from './Nav';
-import LoginForm from './users/LoginForm';
-import Logout from './users/Logout';
-import SignupForm from './users/SignupForm';
-import RentalList from './rentals/RentalList';
-import RentalDetail from './rentals/RentalDetail';
-import RentalCreateForm from './rentals/RentalCreateForm';
-import BookingCreateForm from './bookings/BookingCreateForm';
-import BookingDetail from './bookings/BookingDetail';
-
+import LoginForm from './LoginForm';
+import SignupForm from './SignupForm';
+import RentalList from './RentalList';
+import RentalDetail from './RentalDetail';
+import RentalCreateForm from './RentalCreateForm';
+import BookingCreateForm from './BookingCreateForm';
+import BookingDetail from './BookingDetail';
 
 function App() {
   return (
@@ -22,7 +20,6 @@ function App() {
           <Route path="/users">
             {/* <Route path="" element={<UserList />} /> */}
             <Route path="login" element={<LoginForm />} />
-            <Route path="logout" element={<Logout />} />
             <Route path="signup" element={<SignupForm />} />
             {/* <Route path=":userId" element={<UserDetail />} /> */}
             {/* <Route path=":userId/edit" element={<userEditForm />} /> */}
