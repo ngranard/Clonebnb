@@ -8,7 +8,8 @@ class UserVOEncoder(ModelEncoder):
     properties = [
         'name',
         'email',
-        'host_status'
+        'host_status',
+        'photo'
     ]
 
 

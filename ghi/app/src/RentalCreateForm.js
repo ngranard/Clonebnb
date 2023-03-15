@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const RentalCreateForm = () => {
-  return (
-    <div>RentalCreateForm</div>
-  )
-}
+  return <div>RentalCreateForm</div>;
+};
 
-export default RentalCreateForm
+export default RentalCreateForm;

@@ -9,10 +9,14 @@ from .encoders import BookingEncoder
 # Create your views here.
 
 
-def api_bookings(request):
-    if (request.method == 'GET'):
+def api_bookings(request, pk=None):
+    if (request.method == 'GET' and pk is None):
         bookings = Booking.objects.all()
         return JsonResponse({"bookings": bookings}, encoder=BookingEncoder, safe=False)
+    elif (request.method == 'GET' and pk is not None):
+        guest = UserVO.objects.get(id=pk)
+        bookings = Booking.objects.filter(guest=guest)
+        return JsonResponse(booking, encoder=BookingEncoder, safe=False)
 
     elif (request.method == 'POST'):
         content = json.loads(request.body)
