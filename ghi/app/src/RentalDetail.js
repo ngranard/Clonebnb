@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Form from 'react-bootstrap/Form';
 import Image from 'react-bootstrap/Image';
 import { useParams } from 'react-router-dom';
 import { StarFill } from 'react-bootstrap-icons';
 import { BookingCard } from './BookingCreateForm';
 import Carousel from './Carousel';
+import Map from './Map';
 
 const RentalDetail = () => {
   const fakeData = {
@@ -207,9 +206,13 @@ const RentalDetail = () => {
       </div>
       <div className="mt-5"></div>
       <hr />
-      <div className="p-5">
-        <p style={{ lineHeight: '2rem' }}>{description}</p>
-        <a href="#">Show More</a>
+      <div className="p-5 d-flex justify-content-between">
+        <div style={{ maxWidth: 500 }}>
+          <div className="display-6 mb-4">Description</div>
+          <p style={{ lineHeight: '2rem' }}>{description}</p>
+          <a href="#">Show More</a>
+        </div>
+        <Map width="300px" height="300px" />
       </div>
       <hr />
       <div>

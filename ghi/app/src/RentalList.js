@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { StarFill } from 'react-bootstrap-icons';
-
+import { useNavigate } from 'react-router-dom';
 
 const RentalCard = ({
   img = 'https://a0.muscache.com/im/pictures/miso/Hosting-745787028816952393/original/2b38eb6e-0b90-4c5f-aa30-0636b0610b51.jpeg?im_w=720',
@@ -9,16 +9,23 @@ const RentalCard = ({
   locDescription = '28 miles to Yosemite National Park',
   averageRating = 5,
   pricePerNight = 168,
+  id = 1,
 }) => {
+  const navigate = useNavigate();
   return (
-    <div className="card mb-3 shadow">
+    <div
+      className="card mb-3 shadow"
+      onClick={() => {
+        navigate(`/rentals/${id}`);
+      }}
+    >
       <img src={img} className="card-img-top" />
       <div className="card-body">
         <div className="d-flex align-items-center justify-content-between">
-          <p className="card-title">{location}</p>
+          <div className="card-title">{location}</div>
           <div className="d-flex">
             <StarFill />
-            <h6 className="card-subtitle ms-1 text-muted">{averageRating}</h6>
+            <div className="card-subtitle ms-1 text-muted">{averageRating}</div>
           </div>
         </div>
         <p className="card-subtitle mb-2 text-muted" style={{ fontSize: 12 }}>
@@ -34,14 +41,15 @@ const RentalCard = ({
 };
 
 const RentalList = () => {
-  const fakeRental = {
+  const fakeRental = () => ({
     img: 'https://a0.muscache.com/im/pictures/miso/Hosting-745787028816952393/original/2b38eb6e-0b90-4c5f-aa30-0636b0610b51.jpeg?im_w=720',
     location: 'Ahwahnee, California',
     availability: 'Mar 19 – 24',
     locDescription: '28 miles to Yosemite National Park',
-    averageRating: 5,
+    averageRating: 5.0,
     pricePerNight: 168,
-  };
+    id: 1,
+  });
   const rentalArray = [
     fakeRental,
     fakeRental,

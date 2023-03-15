@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const SignupForm = () => {
   const [firstname, setFirstName] = useState('');
   const [lastname, setLastName] = useState('');
-  const [birthday, setBirthday] = useState('');
+  const [birthday, setBirthday] = useState('1990-01-01');
   const [photo, setPhoto] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('');
