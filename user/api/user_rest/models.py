@@ -85,3 +85,5 @@ class Rental(models.Model):
 
     def __str__(self):
         return f"{self.address}, {self.city}, {self.state} {self.zip_code}, {self.country}"
+
+

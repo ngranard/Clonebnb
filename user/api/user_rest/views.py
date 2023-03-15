@@ -108,11 +108,10 @@ def rental_list(request):
         amenity_data = data.pop("amenities", None)
         if amenity_data:
             amenity = Amenity.objects.create(rental=rental, **amenity_data)
-            rental.amenities.set(amenity)
+            rental.amenities.set([amenity])
 
         return JsonResponse(
-            rental,
-            encoder=RentalEncoder,
+            RentalEncoder().encode(rental),
             safe=False
         )
 
