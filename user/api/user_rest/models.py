@@ -5,16 +5,15 @@ from django.contrib.auth.hashers import make_password
 
 
 class User(AbstractUser):
-  name = models.CharField(max_length=50)
-  birthday = models.DateField(null=True, blank=True)
+  birthday = models.CharField(null=True, blank=True, max_length=10)
   photo = models.URLField()
   email = models.EmailField(max_length=254, null=True)
-  host_status = models.BooleanField(default=False)
-  join_date = models.DateField(null=True, blank=True, auto_now=True)
+  host_status = models.BooleanField(default=False, null=True)
+  is_superhost = models.BooleanField(default=False, null=True)
   password = models.CharField(max_length=128, default=make_password(None))
 
-  def __str__(self):
-    return f"{self.name}"
+  # def __str__(self):
+  #   return f"{self.name}"
 
 #Ubiquitous Language:
 
@@ -85,5 +84,3 @@ class Rental(models.Model):
 
     def __str__(self):
         return f"{self.address}, {self.city}, {self.state} {self.zip_code}, {self.country}"
-
-

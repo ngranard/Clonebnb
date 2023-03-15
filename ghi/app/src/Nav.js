@@ -1,136 +1,80 @@
-import { Link, NavLink, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Button from 'react-bootstrap/esm/Button';
 
-function Nav() {
+function AppNav({ empty = false }) {
   const { rentalId, bookingId } = useParams();
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success mb-4">
-      <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
-          Airbnb Clone
-        </NavLink>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li>
-              <NavLink className="nav-link active" aria-current="page" to="/">
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">
+          <img
+            src="https://1000logos.net/wp-content/uploads/2023/01/Airbnb-logo.png"
+            className="img-fluid"
+            width="100px"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {!empty && (
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link
+                className="nav-link active"
+                aria-current="page"
+                href="/"
+              >
                 Home
-              </NavLink>
-            </li>
+              </Nav.Link>
+              <NavDropdown title="Users" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/users/signup">
+                  Sign Up
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/users/signin">
+                  Sign In
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Bookings" id="basic-nav-dropdown">
+                <NavDropdown.Item href={`/bookings/${bookingId}`}>
+                  Booking Details
+                </NavDropdown.Item>
+                <NavDropdown.Item href={`/bookings`}>Bookings</NavDropdown.Item>
+                <NavDropdown.Item href={`/bookings/new`}>
+                  Create Booking
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Rentals" id="basic-nav-dropdown">
+                <NavDropdown.Item href={`/rentals/${rentalId}`}>
+                  Rental Details
+                </NavDropdown.Item>
+                <NavDropdown.Item href={`/rentals`}>Rentals</NavDropdown.Item>
+                <NavDropdown.Item href={`/rentals/new`}>
+                  Create Rental
+                </NavDropdown.Item>
 
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Users
-              </a>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/users/signup"
-                  >
-                    Signup
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/users/login"
-                  >
-                    Login
-                  </Link>
-                </li>
-              </ul>
-            </li>
-
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Rentals
-              </a>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <Link className="dropdown-item" to={`/rentals/${rentalId}`}>
-                    Rental Detail
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/rentals">
-                    Rental List
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to={`/rentals/${rentalId}/map`}>
-                    Rental Detail Map
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/rentals/new">
-                    Rental Create Form 
-                  </Link>
-                </li>
-              </ul>
-            </li>
-
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Bookings 
-              </a>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to={`/bookings/${bookingId}`}
-                  >
-                    Booking Detail 
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/bookings/new">
-                    Booking Create Form
-                  </Link>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href={`/rentals/${rentalId}/map`}>
+                  Rental Map
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
+        )}
+        {empty && (
+          <div className="d-flex align-items-center">
+            <div className="me-4" style={{ fontWeight: 700 }}>
+              Ready to Airbnb it?
+            </div>
+            <Button variant="danger">Airbnb Setup</Button>
+          </div>
+        )}
+      </Container>
+    </Navbar>
   );
 }
 
-export default Nav;
+export default AppNav;

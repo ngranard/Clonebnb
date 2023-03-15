@@ -38,6 +38,16 @@ function App() {
           </Route>
         </Routes>
       </div>
+      <footer className="fixed-bottom">
+        <div className="d-flex justify-content-center align-items-center p-2 bg-danger bg-opacity-25 text-muted">
+          Created with
+          <i
+            className="fa fa-heart-o ms-2 me-2"
+            style={{ fontSize: '1rem', color: 'red' }}
+          ></i>
+          by Danny, Jamie, Josh, Noah, and Vincent. All rights reserved.
+        </div>
+      </footer>
     </BrowserRouter>
   );
 }
