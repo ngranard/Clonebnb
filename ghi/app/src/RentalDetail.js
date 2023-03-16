@@ -179,6 +179,7 @@ const RentalDetail = () => {
           <p style={{ lineHeight: '2rem' }}>{description}</p>
           <a href="#">Show More</a>
         </div>
+        {/* <Map width="300px" height="300px" lat={lat} lng={lng}/> */}
         <Map width="300px" height="300px" />
       </div>
       <hr />
