@@ -6,8 +6,5 @@ urlpatterns= [
   path("users/", api_user_list, name="api_user_list"),
   path("rentals/", rental_list, name="rental_list"),
   path("rentals/<int:id>/", rental_detail, name="rental_detail")
-  path("users/", api_user_list, name="api_user_list"),
-  path("rentals/", rental_list, name="rental_list"),
-  path("rentals/<int:id>/", rental_detail, name="rental_detail"),
 
 ]
