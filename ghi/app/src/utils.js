@@ -11,10 +11,10 @@ const fakedata = {
   type: 'Entire apartment',
   maxGuests: 10,
   bedrooms: [
-    { bedType: 'Queen bed', count: 1 },
-    { bedType: 'Single bed', count: 2 },
-    { bedType: 'Sofa bed', count: 3 },
-    { bedType: 'Queen bed', count: 1 },
+    { bed_type: 'Queen bed', bed_count: 1 },
+    { bed_type: 'Single bed', bed_count: 2 },
+    { bed_type: 'Sofa bed', bed_count: 3 },
+    { bed_type: 'Queen bed', bed_count: 1 },
   ],
   bathCount: 2,
   owner: {

@@ -1,0 +1,1002 @@
+[
+  {
+    "model": "user_rest.bed",
+    "pk": 1,
+    "fields": { "bed_type": "queen", "bed_count": 9, "bedroom": 19 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 2,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 23 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 3,
+    "fields": { "bed_type": "single", "bed_count": 5, "bedroom": 99 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 4,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 1 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 5,
+    "fields": { "bed_type": "single", "bed_count": 10, "bedroom": 54 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 6,
+    "fields": { "bed_type": "queen", "bed_count": 8, "bedroom": 73 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 7,
+    "fields": { "bed_type": "twin", "bed_count": 3, "bedroom": 56 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 8,
+    "fields": { "bed_type": "queen", "bed_count": 2, "bedroom": 63 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 9,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 76 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 10,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 65 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 11,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 93 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 12,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 65 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 13,
+    "fields": { "bed_type": "single", "bed_count": 1, "bedroom": 45 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 14,
+    "fields": { "bed_type": "single", "bed_count": 3, "bedroom": 53 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 15,
+    "fields": { "bed_type": "single", "bed_count": 1, "bedroom": 61 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 16,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 15 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 17,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 55 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 18,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 89 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 19,
+    "fields": { "bed_type": "single", "bed_count": 5, "bedroom": 44 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 20,
+    "fields": { "bed_type": "double", "bed_count": 10, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 21,
+    "fields": { "bed_type": "queen", "bed_count": 4, "bedroom": 30 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 22,
+    "fields": { "bed_type": "king", "bed_count": 2, "bedroom": 87 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 23,
+    "fields": { "bed_type": "double", "bed_count": 10, "bedroom": 26 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 24,
+    "fields": { "bed_type": "king", "bed_count": 6, "bedroom": 40 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 25,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 88 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 26,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 80 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 27,
+    "fields": { "bed_type": "twin", "bed_count": 3, "bedroom": 21 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 28,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 92 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 29,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 1 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 30,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 53 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 31,
+    "fields": { "bed_type": "queen", "bed_count": 7, "bedroom": 44 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 32,
+    "fields": { "bed_type": "king", "bed_count": 10, "bedroom": 12 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 33,
+    "fields": { "bed_type": "queen", "bed_count": 5, "bedroom": 86 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 34,
+    "fields": { "bed_type": "double", "bed_count": 1, "bedroom": 66 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 35,
+    "fields": { "bed_type": "queen", "bed_count": 3, "bedroom": 16 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 36,
+    "fields": { "bed_type": "twin", "bed_count": 8, "bedroom": 11 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 37,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 2 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 38,
+    "fields": { "bed_type": "twin", "bed_count": 8, "bedroom": 36 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 39,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 58 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 40,
+    "fields": { "bed_type": "double", "bed_count": 7, "bedroom": 86 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 41,
+    "fields": { "bed_type": "single", "bed_count": 2, "bedroom": 3 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 42,
+    "fields": { "bed_type": "queen", "bed_count": 3, "bedroom": 55 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 43,
+    "fields": { "bed_type": "twin", "bed_count": 10, "bedroom": 5 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 44,
+    "fields": { "bed_type": "queen", "bed_count": 2, "bedroom": 6 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 45,
+    "fields": { "bed_type": "double", "bed_count": 1, "bedroom": 51 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 46,
+    "fields": { "bed_type": "twin", "bed_count": 9, "bedroom": 93 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 47,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 48,
+    "fields": { "bed_type": "double", "bed_count": 8, "bedroom": 90 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 49,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 70 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 50,
+    "fields": { "bed_type": "king", "bed_count": 6, "bedroom": 46 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 51,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 52,
+    "fields": { "bed_type": "queen", "bed_count": 7, "bedroom": 54 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 53,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 1 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 54,
+    "fields": { "bed_type": "twin", "bed_count": 10, "bedroom": 3 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 55,
+    "fields": { "bed_type": "king", "bed_count": 10, "bedroom": 73 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 56,
+    "fields": { "bed_type": "single", "bed_count": 6, "bedroom": 35 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 57,
+    "fields": { "bed_type": "king", "bed_count": 2, "bedroom": 54 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 58,
+    "fields": { "bed_type": "double", "bed_count": 7, "bedroom": 47 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 59,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 60,
+    "fields": { "bed_type": "king", "bed_count": 2, "bedroom": 50 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 61,
+    "fields": { "bed_type": "king", "bed_count": 10, "bedroom": 91 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 62,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 82 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 63,
+    "fields": { "bed_type": "queen", "bed_count": 7, "bedroom": 90 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 64,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 67 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 65,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 74 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 66,
+    "fields": { "bed_type": "queen", "bed_count": 8, "bedroom": 94 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 67,
+    "fields": { "bed_type": "single", "bed_count": 5, "bedroom": 68 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 68,
+    "fields": { "bed_type": "single", "bed_count": 9, "bedroom": 16 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 69,
+    "fields": { "bed_type": "king", "bed_count": 7, "bedroom": 64 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 70,
+    "fields": { "bed_type": "king", "bed_count": 6, "bedroom": 13 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 71,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 83 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 72,
+    "fields": { "bed_type": "single", "bed_count": 1, "bedroom": 96 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 73,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 65 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 74,
+    "fields": { "bed_type": "queen", "bed_count": 3, "bedroom": 16 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 75,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 63 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 76,
+    "fields": { "bed_type": "single", "bed_count": 2, "bedroom": 67 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 77,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 92 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 78,
+    "fields": { "bed_type": "double", "bed_count": 3, "bedroom": 33 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 79,
+    "fields": { "bed_type": "king", "bed_count": 4, "bedroom": 2 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 80,
+    "fields": { "bed_type": "queen", "bed_count": 9, "bedroom": 32 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 81,
+    "fields": { "bed_type": "double", "bed_count": 9, "bedroom": 77 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 82,
+    "fields": { "bed_type": "double", "bed_count": 1, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 83,
+    "fields": { "bed_type": "single", "bed_count": 9, "bedroom": 76 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 84,
+    "fields": { "bed_type": "twin", "bed_count": 10, "bedroom": 90 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 85,
+    "fields": { "bed_type": "twin", "bed_count": 5, "bedroom": 44 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 86,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 90 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 87,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 97 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 88,
+    "fields": { "bed_type": "double", "bed_count": 1, "bedroom": 71 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 89,
+    "fields": { "bed_type": "single", "bed_count": 10, "bedroom": 4 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 90,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 57 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 91,
+    "fields": { "bed_type": "queen", "bed_count": 10, "bedroom": 19 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 92,
+    "fields": { "bed_type": "queen", "bed_count": 9, "bedroom": 11 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 93,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 44 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 94,
+    "fields": { "bed_type": "double", "bed_count": 8, "bedroom": 28 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 95,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 2 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 96,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 7 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 97,
+    "fields": { "bed_type": "twin", "bed_count": 4, "bedroom": 84 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 98,
+    "fields": { "bed_type": "queen", "bed_count": 2, "bedroom": 12 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 99,
+    "fields": { "bed_type": "double", "bed_count": 9, "bedroom": 87 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 100,
+    "fields": { "bed_type": "queen", "bed_count": 5, "bedroom": 80 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 101,
+    "fields": { "bed_type": "twin", "bed_count": 6, "bedroom": 87 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 102,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 42 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 103,
+    "fields": { "bed_type": "double", "bed_count": 3, "bedroom": 31 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 104,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 31 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 105,
+    "fields": { "bed_type": "king", "bed_count": 1, "bedroom": 69 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 106,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 107,
+    "fields": { "bed_type": "queen", "bed_count": 6, "bedroom": 2 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 108,
+    "fields": { "bed_type": "double", "bed_count": 8, "bedroom": 54 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 109,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 29 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 110,
+    "fields": { "bed_type": "queen", "bed_count": 1, "bedroom": 40 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 111,
+    "fields": { "bed_type": "twin", "bed_count": 5, "bedroom": 46 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 112,
+    "fields": { "bed_type": "twin", "bed_count": 8, "bedroom": 18 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 113,
+    "fields": { "bed_type": "king", "bed_count": 9, "bedroom": 55 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 114,
+    "fields": { "bed_type": "twin", "bed_count": 8, "bedroom": 60 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 115,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 64 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 116,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 13 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 117,
+    "fields": { "bed_type": "king", "bed_count": 7, "bedroom": 45 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 118,
+    "fields": { "bed_type": "queen", "bed_count": 7, "bedroom": 15 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 119,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 62 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 120,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 98 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 121,
+    "fields": { "bed_type": "king", "bed_count": 6, "bedroom": 5 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 122,
+    "fields": { "bed_type": "double", "bed_count": 7, "bedroom": 97 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 123,
+    "fields": { "bed_type": "double", "bed_count": 9, "bedroom": 93 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 124,
+    "fields": { "bed_type": "single", "bed_count": 8, "bedroom": 98 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 125,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 20 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 126,
+    "fields": { "bed_type": "queen", "bed_count": 6, "bedroom": 84 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 127,
+    "fields": { "bed_type": "king", "bed_count": 4, "bedroom": 38 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 128,
+    "fields": { "bed_type": "queen", "bed_count": 9, "bedroom": 78 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 129,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 11 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 130,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 30 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 131,
+    "fields": { "bed_type": "twin", "bed_count": 6, "bedroom": 70 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 132,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 35 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 133,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 12 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 134,
+    "fields": { "bed_type": "king", "bed_count": 10, "bedroom": 60 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 135,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 76 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 136,
+    "fields": { "bed_type": "double", "bed_count": 1, "bedroom": 23 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 137,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 1 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 138,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 30 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 139,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 81 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 140,
+    "fields": { "bed_type": "king", "bed_count": 8, "bedroom": 8 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 141,
+    "fields": { "bed_type": "single", "bed_count": 6, "bedroom": 76 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 142,
+    "fields": { "bed_type": "king", "bed_count": 7, "bedroom": 4 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 143,
+    "fields": { "bed_type": "king", "bed_count": 5, "bedroom": 8 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 144,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 39 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 145,
+    "fields": { "bed_type": "double", "bed_count": 7, "bedroom": 67 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 146,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 9 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 147,
+    "fields": { "bed_type": "single", "bed_count": 2, "bedroom": 1 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 148,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 60 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 149,
+    "fields": { "bed_type": "single", "bed_count": 9, "bedroom": 97 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 150,
+    "fields": { "bed_type": "twin", "bed_count": 1, "bedroom": 8 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 151,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 19 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 152,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 38 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 153,
+    "fields": { "bed_type": "single", "bed_count": 5, "bedroom": 96 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 154,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 45 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 155,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 7 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 156,
+    "fields": { "bed_type": "single", "bed_count": 10, "bedroom": 14 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 157,
+    "fields": { "bed_type": "twin", "bed_count": 10, "bedroom": 74 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 158,
+    "fields": { "bed_type": "double", "bed_count": 7, "bedroom": 88 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 159,
+    "fields": { "bed_type": "twin", "bed_count": 7, "bedroom": 99 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 160,
+    "fields": { "bed_type": "queen", "bed_count": 1, "bedroom": 21 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 161,
+    "fields": { "bed_type": "queen", "bed_count": 6, "bedroom": 92 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 162,
+    "fields": { "bed_type": "twin", "bed_count": 5, "bedroom": 76 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 163,
+    "fields": { "bed_type": "double", "bed_count": 4, "bedroom": 34 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 164,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 57 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 165,
+    "fields": { "bed_type": "queen", "bed_count": 9, "bedroom": 43 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 166,
+    "fields": { "bed_type": "queen", "bed_count": 8, "bedroom": 19 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 167,
+    "fields": { "bed_type": "queen", "bed_count": 5, "bedroom": 86 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 168,
+    "fields": { "bed_type": "single", "bed_count": 3, "bedroom": 67 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 169,
+    "fields": { "bed_type": "twin", "bed_count": 2, "bedroom": 13 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 170,
+    "fields": { "bed_type": "king", "bed_count": 4, "bedroom": 37 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 171,
+    "fields": { "bed_type": "queen", "bed_count": 7, "bedroom": 19 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 172,
+    "fields": { "bed_type": "king", "bed_count": 7, "bedroom": 46 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 173,
+    "fields": { "bed_type": "single", "bed_count": 2, "bedroom": 14 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 174,
+    "fields": { "bed_type": "double", "bed_count": 2, "bedroom": 81 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 175,
+    "fields": { "bed_type": "twin", "bed_count": 1, "bedroom": 6 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 176,
+    "fields": { "bed_type": "single", "bed_count": 10, "bedroom": 22 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 177,
+    "fields": { "bed_type": "single", "bed_count": 1, "bedroom": 32 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 178,
+    "fields": { "bed_type": "single", "bed_count": 2, "bedroom": 32 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 179,
+    "fields": { "bed_type": "single", "bed_count": 7, "bedroom": 10 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 180,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 48 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 181,
+    "fields": { "bed_type": "double", "bed_count": 6, "bedroom": 85 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 182,
+    "fields": { "bed_type": "king", "bed_count": 1, "bedroom": 91 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 183,
+    "fields": { "bed_type": "single", "bed_count": 9, "bedroom": 92 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 184,
+    "fields": { "bed_type": "single", "bed_count": 4, "bedroom": 13 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 185,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 55 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 186,
+    "fields": { "bed_type": "king", "bed_count": 1, "bedroom": 77 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 187,
+    "fields": { "bed_type": "king", "bed_count": 4, "bedroom": 84 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 188,
+    "fields": { "bed_type": "queen", "bed_count": 5, "bedroom": 54 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 189,
+    "fields": { "bed_type": "king", "bed_count": 1, "bedroom": 51 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 190,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 7 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 191,
+    "fields": { "bed_type": "double", "bed_count": 5, "bedroom": 60 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 192,
+    "fields": { "bed_type": "king", "bed_count": 3, "bedroom": 40 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 193,
+    "fields": { "bed_type": "double", "bed_count": 3, "bedroom": 46 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 194,
+    "fields": { "bed_type": "king", "bed_count": 1, "bedroom": 98 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 195,
+    "fields": { "bed_type": "single", "bed_count": 1, "bedroom": 62 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 196,
+    "fields": { "bed_type": "queen", "bed_count": 3, "bedroom": 86 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 197,
+    "fields": { "bed_type": "single", "bed_count": 6, "bedroom": 81 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 198,
+    "fields": { "bed_type": "twin", "bed_count": 1, "bedroom": 7 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 199,
+    "fields": { "bed_type": "king", "bed_count": 4, "bedroom": 83 }
+  },
+  {
+    "model": "user_rest.bed",
+    "pk": 200,
+    "fields": { "bed_type": "twin", "bed_count": 4, "bedroom": 30 }
+  }
+]

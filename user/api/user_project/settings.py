@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -63,7 +64,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'user_project.urls'
 
-CORS_ALLOWED_ORIGINS = [    "http://localhost:3000",    "http://localhost:8080",    "http://localhost:8081",    "http://localhost:8082",]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000",    "http://localhost:8080",
+                        "http://localhost:8081",    "http://localhost:8082",]
 
 TEMPLATES = [
     {
@@ -87,12 +89,8 @@ WSGI_APPLICATION = 'user_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+DATABASES = {}
+DATABASES["default"] = dj_database_url.config()
 
 
 # Password validation
@@ -111,6 +109,10 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
+]
+
+FIXTURE_DIRS = [
+    BASE_DIR / "fixtures"
 ]
 
 

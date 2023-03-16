@@ -5,36 +5,12 @@ from django.contrib.auth.hashers import make_password
 
 
 class User(AbstractUser):
-  birthday = models.CharField(null=True, blank=True, max_length=10)
-  photo = models.URLField()
-  email = models.EmailField(max_length=254, null=True)
-  host_status = models.BooleanField(default=False, null=True)
-  is_superhost = models.BooleanField(default=False, null=True)
-  password = models.CharField(max_length=128, default=make_password(None))
-
-  # def __str__(self):
-  #   return f"{self.name}"
-
-#Ubiquitious Language:
-
-# login form
-# sign up form
-# Rental creation form: will also contain amenity checklist form
-# Booking
-# Host
-# Guest
-# Reviews
-
-#   FrontEnd:
-# - BookingCreateForm.js (Guest)
-# - RentalCreateForm.js (Host)
-# - LoginInForm.js
-# - SignUpForm.js
-
-# - RentalList.js
-# - RentalDetail.js
-
-
+    birthday = models.CharField(null=True, blank=True, max_length=10)
+    photo = models.URLField()
+    email = models.EmailField(max_length=254, null=True)
+    host_status = models.BooleanField(default=False, null=True)
+    is_superhost = models.BooleanField(default=False, null=True)
+    password = models.CharField(max_length=128, default=make_password(None))
 
 class Amenity(models.Model):
     toilet_paper = models.BooleanField(default=False)
@@ -65,8 +41,9 @@ class Amenity(models.Model):
     great_location = models.BooleanField(default=False)
 
 
-
 class Rental(models.Model):
+    images = models.TextField(
+        null=True, blank=True, default='["https://a0.muscache.com/im/pictures/miso/Hosting-745787028816952393/original/2b38eb6e-0b90-4c5f-aa30-0636b0610b51.jpeg?im_w=720"]')
     host = models.ForeignKey(
         User,
         related_name="rental",
@@ -78,12 +55,48 @@ class Rental(models.Model):
     state = models.CharField(max_length=255)
     zip_code = models.IntegerField()
     country = models.CharField(max_length=255)
+    max_guests = models.IntegerField(null=True, blank=True, default=1)
+    rental_type = models.CharField(
+        max_length=255, null=True, blank=True, default='Entire Place')
+    bath_count = models.IntegerField(null=True, blank=True, default=1)
+    description = models.TextField(null=True, blank=True, default='Large, modern home situated on a breathtaking property carved out of the hillside. Amazing views from all over the property, with expansive outdoor space that includes a hot tub and a pool.  Close to Oakhurst, Bass Lake, and Yosemite High speed Wi Fi Dedicated work space The space Almost new home, modern home on a large property. Secluded, yet close to town and Yosemite. Large house with high ceilings and great views from most rooms.')
+    price_per_night = models.IntegerField(null=True, blank=True, default=169)
+    price_before_discount = models.IntegerField(
+        null=True, blank=True, default=221)
     amenity = models.ForeignKey(
-      Amenity,
-      related_name="amenity",
-      on_delete=models.PROTECT,
-      null=True,
+        Amenity,
+        related_name="amenity",
+        on_delete=models.PROTECT,
+        null=True,
     )
 
     def __str__(self):
         return f"{self.address}, {self.city}, {self.state} {self.zip_code}, {self.country}, {self.amenity}"
+
+
+class Bedroom(models.Model):
+    rental = models.ForeignKey(
+        Rental, on_delete=models.CASCADE, related_name='bedrooms')
+
+
+class Bed(models.Model):
+    bedroom = models.ForeignKey(
+        Bedroom, on_delete=models.CASCADE, related_name='beds')
+    bed_type = models.CharField(max_length=255)
+    bed_count = models.IntegerField(null=True, blank=True, default=1)
+
+
+class Review(models.Model):
+    user = models.ForeignKey(
+        User,
+        related_name="review",
+        on_delete=models.CASCADE
+    )
+    rental = models.ForeignKey(
+        Rental,
+        related_name="review",
+        on_delete=models.CASCADE
+    )
+    date = models.DateTimeField(auto_now_add=True)
+    rating = models.FloatField(default=5.0, null=True, blank=True)
+    comment = models.TextField(default='', null=True, blank=True)

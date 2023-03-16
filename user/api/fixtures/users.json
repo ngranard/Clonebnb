@@ -1,0 +1,182 @@
+[
+  {
+    "model": "user_rest.user",
+    "pk": 1,
+    "fields": {
+      "username": "joshua_evangelista",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Joshua",
+      "last_name": "Evangelista",
+      "email": "joshua.evangelista@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1996-01-04",
+      "birthday": "1996-01-04",
+      "photo": "https://i.imgur.com/XlFY0GV.jpeg",
+      "host_status": true,
+      "is_superhost": false
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 2,
+    "fields": {
+      "username": "post_malone",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Post",
+      "last_name": "Malone",
+      "email": "post.malone@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1995-07-04",
+      "birthday": "1995-07-04",
+      "photo": "https://media.vanityfair.com/photos/5f22fb7fad09aa418d204225/4:3/w_1779,h_1334,c_limit/post.jpg",
+      "host_status": false,
+      "is_superhost": false
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 3,
+    "fields": {
+      "username": "pedro_pascal",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Pedro",
+      "last_name": "Pascal",
+      "email": "pedro.pascal@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "1975-04-02",
+      "birthday": "1975-04-02",
+      "photo": "https://sportshub.cbsistatic.com/i/2021/04/09/6b711e73-be4e-4a64-a966-9607ffc1c9f4/pedro-pascal-community-table-read-1221199.jpg",
+      "host_status": true,
+      "is_superhost": true
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 4,
+    "fields": {
+      "username": "lewis_hamilton",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Lewis",
+      "last_name": "Hamilton",
+      "email": "lewis.hamilton@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1985-01-07",
+      "birthday": "1985-01-07",
+      "photo": "https://www.si.com/.image/t_share/MTk1MTgwNzI1NDU5MjMxOTQz/m286916.jpg",
+      "host_status": true,
+      "is_superhost": true
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 5,
+    "fields": {
+      "username": "harley_streton",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Harley",
+      "last_name": "Streton",
+      "email": "harley.streton@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1991-11-05",
+      "birthday": "1991-11-05",
+      "photo": "https://edm.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU0ODkyNDk1Mjg3NzU2Mjk1/flume.jpg",
+      "host_status": false,
+      "is_superhost": false
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 6,
+    "fields": {
+      "username": "margot_robbie",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Margot",
+      "last_name": "Robbie",
+      "email": "margot.robbie@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1990-07-02",
+      "birthday": "1990-07-02",
+      "photo": "https://celebmafia.com/wp-content/uploads/2019/07/margot-robbie-once-upon-a-time-in-hollywood-press-portraits-july-2019-1_thumbnail.jpg",
+      "host_status": false,
+      "is_superhost": false
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 7,
+    "fields": {
+      "username": "anya_taylor-joy",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Anya",
+      "last_name": "Taylor-Joy",
+      "email": "anya.taylor-joy@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "1996-04-16",
+      "birthday": "1996-04-16",
+      "photo": "https://media.vogue.fr/photos/5f50b5b38c20c60483bd1775/3:4/w_1800,h_2400,c_limit/The%20Queen's%20Gambit-_077R.jpg",
+      "host_status": false,
+      "is_superhost": true
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 8,
+    "fields": {
+      "username": "jenna_ortega",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Jenna",
+      "last_name": "Ortega",
+      "email": "jenna.ortega@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2002-09-27",
+      "birthday": "2002-09-27",
+      "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jenna-ortega-1677582680.jpg",
+      "host_status": false,
+      "is_superhost": true
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 9,
+    "fields": {
+      "username": "keanu_reeves",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Keanu",
+      "last_name": "Reeves",
+      "email": "keanu.reeves@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "1964-09-02",
+      "birthday": "1964-09-02",
+      "photo": "https://media.vanityfair.com/photos/5fd3a2fec998b1ebe1778cbf/3:2/w_1626,h_1084,c_limit/Keanu-Reeves-Cyberpunk-2077.jpg",
+      "host_status": true,
+      "is_superhost": true
+    }
+  },
+  {
+    "model": "user_rest.user",
+    "pk": 10,
+    "fields": {
+      "username": "hattori_hanzo",
+      "password": "pbkdf2_sha256$150000$FDEgXhYAC8HV$Jc0fLrIezr/RpOv8Cw0n1nmM7Jg4X+uF7Vn/05iNfSg=",
+      "first_name": "Hattori",
+      "last_name": "Hanzo",
+      "email": "hattori.hanzo@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "1997-01-02",
+      "birthday": "1997-01-02",
+      "photo": "https://www.swordsofnorthshire.com/image/catalog/articles/hattori%20hanzo/Hattori%20Hanzo.jpg",
+      "host_status": true,
+      "is_superhost": false
+    }
+  }
+]

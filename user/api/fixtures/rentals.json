@@ -1,0 +1,402 @@
+[
+  {
+    "model": "user_rest.rental",
+    "pk": 1,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/10/bigphoto/582/41019582_0.jpg\",\"https://ssl.cdn-redfin.com/photo/10/bigphoto/582/41019582_4_0.jpg\",\"https://ssl.cdn-redfin.com/photo/10/bigphoto/582/41019582_7_0.jpg\",\"https://ssl.cdn-redfin.com/photo/10/bigphoto/582/41019582_3_0.jpg\"]",
+      "host": 3,
+      "address": "1160 Mission St #2010",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94112",
+      "country": "USA",
+      "max_guests": 1,
+      "rental_type": "single room",
+      "bath_count": 1,
+      "description": "Welcome to 2034 19th Ave, in the heart of Sunset District. The entire house has been remodeled and reimagined for contemporary living. The central foyer leads to a grand living space with bay windows and an original fireplace, basked in natural light. The kitchen boasts quartz countertops, custom cabinetry, and new appliances with stacked washer/dryer. Two spacious bedrooms with large closets and a contemporary upgraded bathroom. The downstairs ensuite has a kitchenette and private access. Step outside to a serene backyard with fruit and maple trees and a paved patio. The attached 2-car garage provides ample storage space or a home gym. The Sunset District offers a welcoming vibe and stunning views of the Pacific and Golden Gate Bridge, with walking access to Golden Gate Park, Ocean Beach, top-rated schools, trendy cafes, restaurants, parks, and recreation areas. This turnkey home is perfect for those seeking a peaceful city retreat with easy access to all SF has to offe",
+      "price_per_night": 39,
+      "price_before_discount": 76,
+      "amenity": 9
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 2,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/524/423727524_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/524/423727524_9_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/524/423727524_44_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/524/423727524_80_0.jpg\"]",
+      "host": 7,
+      "address": "42 cuvier st",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94112",
+      "country": "USA",
+      "max_guests": 4,
+      "rental_type": "two bedroom",
+      "bath_count": 2,
+      "description": "Almost as pristine as when the sellers bought it in 2020, this home will convert to a condo at the close of escrow. Take advantage of the complete studs out renovation that happened 3 years ago and the work the owners put into it to condo convert. This lovely home is part of a 2 unit building that has modern conveniences on the inside while retaining the Victorian character on the outside. It checks so many boxes: great design, efficiency, open concept living areas, a second guest bedroom that makes WFH easy, a large sunny deeded deck straight out the back door that makes outdoor entertaining a breeze, a shared backyard with the other unit that has seating and bbq, the convenience of in unit washer and dryer, 4 closets and a large deeded storage room that make for a clutter free environment plus low HOA dues. Move right in and start living your best life! Close to freeways and Glen Park Bart, this location is ideal for commuters.",
+      "price_per_night": 59,
+      "price_before_discount": 5,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 3,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/527/423726527_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/527/423726527_6_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/527/423726527_31_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/527/423726527_37_0.jpg\"]",
+      "host": 1,
+      "address": "2003-2005 franklin st",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94109",
+      "country": "USA",
+      "max_guests": 20,
+      "rental_type": "nine bedroom",
+      "bath_count": 1,
+      "description": "Magnificent 1885 Mansion converted into 3 flats and 2 apartments. 6,285 square feet of living space on a 34 x 135 foot lot. Main floor full floor flat (Unit #1) which was living space of original home boasts 3 tremendously large rooms (living, sitting, and dining rooms) as you enter with 2 bedrooms, 2 bathrooms, and kitchen in rear. Second floor was converted into a 2bed/2bath unit (Unit #2) and a 1bed/1bath unit. (Unit #3) Third Floor is a 5 bedroom, 3 bathroom full floor flat. (Unit #4) Ground Floor is a 2 bed/2bath unit (Unit 2005) Common storage and laundry room in back of building. Separate water heaters. Decks in rear and large yard.",
+      "price_per_night": 2,
+      "price_before_discount": 61,
+      "amenity": 14
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 4,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/248/423725248_1_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/248/423725248_2_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/248/423725248_17_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/248/423725248_5_0.jpg\"]",
+      "host": 1,
+      "address": "518 22nd Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94121",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "Welcome home to 518 22nd Avenue! This charming, bright Central Richmond home enjoys the rare combination of intact period details and recently updated kitchen and baths. A majestic Redwood tree in the garden provides lovely vistas from all east facing rooms as well as privacy. On the main level, a stately fireplace is the focal point of the sunny living room which also includes glass-front bookcases. The spacious dining room with built-in hutch opens onto the stunning kitchen with new quartz counters and stainless steel appliances. A cozy sunroom or office and half-bath sit tucked just off the kitchen. The unusually deep and level garden has ample room for a play structure or outdoor kitchen. On the top floor are three sun-filled bedrooms, an office or nursery, and a refreshed bath. The garage has plenty of storage, laundry, and a large window for natural light. The home was recently painted inside and out and the original hardwood floors meticulously refinished. Enjoy nature nearby in Golden Gate Park, Ocean Beach or Land's End. Walk to shopping and dining as well as easy Muni access. Move right in! Won't last!",
+      "price_per_night": 42,
+      "price_before_discount": 21,
+      "amenity": 15
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 5,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/232/423727232_23_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/232/423727232_5_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/232/423727232_1_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/232/423727232_24_0.jpg\"]",
+      "host": 10,
+      "address": "1452 Bush St #11",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94109",
+      "country": "USA",
+      "max_guests": 4,
+      "rental_type": "two bedroom",
+      "bath_count": 1,
+      "description": "Bright and modern South-facing condominium residence at the Midtown, a boutique elevator building, features a house-like floor plan on two levels. Main level offers a South facing living room with large light infused windows and walk-out sunny balcony for your morning coffee, work from home lunch break or evening refreshment + a large chef's kitchen and a generous dining area for entertaining + a powder room. Upstairs boasts two spacious bedrooms with ensuite bathrooms, with the south-facing primary bedroom offering large sunny windows and a built-In window seat. Home boasts gorgeous updated wood floors, in-unit laundry and deeded independent garage parking with elevator access to your floor. Great location just steps to Whole Foods for grocery shopping and upper Polk and Hayes Valley shops, restaurants, cafes, public transportation and access to area freeways.",
+      "price_per_night": 72,
+      "price_before_discount": 88,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 6,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/037/423724037_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/037/423724037_6_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/037/423724037_7_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/037/423724037_14_0.jpg\"]",
+      "host": 10,
+      "address": "1160 Mission St #2010",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94103",
+      "country": "USA",
+      "max_guests": 3,
+      "rental_type": "one bedroom",
+      "bath_count": 2,
+      "description": "When it comes to breathtaking views, it doesn't get much better than this. Perched on the 20th floor of 1160 Mission Street, this soaring and serene escape not only awakens the senses but places you near it all. Complemented with a material palette comprising hardwood floors and stainless steel appliances, and modern conveniences like an in-unit washer and dryer, convenience and comfort come standard. Amenity rich, residents also enjoy access to a well-appointed gym, 24-hr concierge services, a clubhouse, sundecks with cabanas, city views, and hot tub, not to mention a prime Mid-Market location ideal for exploring some of the city's finest shops, restaurants, museums, and latest offerings",
+      "price_per_night": 86,
+      "price_before_discount": 21,
+      "amenity": 13
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 7,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/8/bigphoto/069/ML81919069_0.jpg\",\"https://ssl.cdn-redfin.com/photo/8/bigphoto/069/ML81919069_5_0.jpg\",\"https://ssl.cdn-redfin.com/photo/8/bigphoto/069/ML81919069_9_0.jpg\",\"https://ssl.cdn-redfin.com/photo/8/bigphoto/069/ML81919069_18_0.jpg\"]",
+      "host": 6,
+      "address": "156-158 Beaver St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94144",
+      "country": "USA",
+      "max_guests": 10,
+      "rental_type": "five bedroom",
+      "bath_count": 1,
+      "description": "Stunning City Views from the vacant three units. Located on a charming, flat, quiet street the amazing views of downtown San Francisco are stunning.156-158 Beaver St. exudes pride of ownership in a much sought-after Corona Heights location + just blocks from the vibrant restaurants, boutiques, shops, & cafes of The Castro & Divisadero Street. The upper unit is a 2-level penthouse with panoramic downtown and water views. The 3 BR/2 BA have a private roof-deck, updated kitchen & decorative fireplace. 156 Beaver is a spacious 1 BR/1 BA full-floor flat with a decorative fireplace. 156B Beaver is an unwarranted 1 BR, 1 BA 2-level flat. This building has 3 step-out patio areas, dishwashers, washer/dryer, 3 car parking ~ 2 side-by-side in the building + 1 car garage behind the building. All units have been updated and are move-in ready, and yet the units still have the original charm (built in 1929) with high coved ceilings, decorative fireplace, hardwood flooring. The property is well situated between Corona Heights, Duboce Park, and the Castro with parks, pickleball courts, public transit options, and tech shuttles nearby. A great opportunity for an owner-occupier investor to call home or investor. This property is also being offered for sale as 2 TIC units",
+      "price_per_night": 93,
+      "price_before_discount": 43,
+      "amenity": 10
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 8,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/45/bigphoto/670/OC23041670_0.jpg\",\"https://ssl.cdn-redfin.com/photo/45/bigphoto/670/OC23041670_8_0.jpg\",\"https://ssl.cdn-redfin.com/photo/45/bigphoto/670/OC23041670_17_0.jpg\",\"https://ssl.cdn-redfin.com/photo/45/bigphoto/670/OC23041670_29_0.jpg\"]",
+      "host": 6,
+      "address": "2034 19th Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94116",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "Welcome to 2034 19th Ave, in the heart of Sunset District. The entire house has been remodeled and reimagined for contemporary living. The central foyer leads to a grand living space with bay windows and an original fireplace, basked in natural light. The kitchen boasts quartz countertops, custom cabinetry, and new appliances with stacked washer/dryer. Two spacious bedrooms with large closets and a contemporary upgraded bathroom. The downstairs ensuite has a kitchenette and private access. Step outside to a serene backyard with fruit and maple trees and a paved patio. The attached 2-car garage provides ample storage space or a home gym. The Sunset District offers a welcoming vibe and stunning views of the Pacific and Golden Gate Bridge, with walking access to Golden Gate Park, Ocean Beach, top-rated schools, trendy cafes, restaurants, parks, and recreation areas. This turnkey home is perfect for those seeking a peaceful city retreat with easy access to all SF has to offe",
+      "price_per_night": 46,
+      "price_before_discount": 73,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 9,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/27/bigphoto/024/423727024_3.jpg\",\"https://ssl.cdn-redfin.com/photo/27/bigphoto/024/423727024_3_3.jpg\",\"https://ssl.cdn-redfin.com/photo/27/bigphoto/024/423727024_11_3.jpg\",\"https://ssl.cdn-redfin.com/photo/27/bigphoto/024/423727024_27_3.jpg\"]",
+      "host": 7,
+      "address": "28 Aquavista Way,",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94131",
+      "country": "USA",
+      "max_guests": 4,
+      "rental_type": "two bedroom",
+      "bath_count": 1,
+      "description": "Mid-century residence located in Midtown Terrace. Fully detached, backed by beautiful San Francisco open space. High up on the hill with great hiking and biking trails. Extra large flat lot. Landscaped fenced back and side yard with private hillside views. 1-car garage parking and an extra bonus office/storage space. Well maintained and has potential for additional expansion",
+      "price_per_night": 74,
+      "price_before_discount": 58,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 10,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/631/423725631_1_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/631/423725631_8_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/631/423725631_26_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/631/423725631_31_0.jpg\"]",
+      "host": 6,
+      "address": "792 Capp St #2",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94110",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "This Modern, brand new construction home offers 3 bedrooms + 2 luxurious baths with a lovely private terrace and large rear backyard. In the kitchen you'll find custom grey maple cabinets, large center island, ceramic backsplashes, a Bertazzoni range and dishwasher and a Fisher Paykel refrigerator. The luxury finishes in the bathroom include a custom vanity, eye-catching tile and black finish plumbing fixtures that are equally sleek and unique. This well designed unit features a fantastic floor plan, sophisticated details and an abundance of natural light throughout. The building, 792 Capp Street is a newly constructed 4-unit condo building in San Francisco's fantastic Mission neighborhood. Each of the units feature thoughtfully designed spaces with warm modern details, private outdoor spaces, and much more",
+      "price_per_night": 8,
+      "price_before_discount": 54,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 11,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/974/423726974_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/974/423726974_11_1.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/974/423726974_26_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/974/423726974_34_0.jpg\"]",
+      "host": 5,
+      "address": "316 Warren Dr",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94131",
+      "country": "USA",
+      "max_guests": 10,
+      "rental_type": "five bedroom",
+      "bath_count": 2,
+      "description": "Nestled against Mount Sutro, this large, architecturally forward Forest Knolls home boasts Marin Headland and Ocean views from every living level and an expansive and flexible layout. A double-height ceiling with large custom windows grace the open living room, bringing abundant southern and western light into the primary living space. The eat-in kitchen is made for the industrious cook with a 36'' range, double wall oven, substantial prep space and a bar counter that seats multiple guests. The large primary suite with fireplace, private balcony and walk-in closet are adjacent to a media mezzanine at the second level of the home. Four bedrooms, one of them ensuite, seamlessly connect to the outdoors with west-facing view balconies and direct connection to 2 large outdoor entertaining spaces. This abundance of space centers around a dramatic staircase. A two-car, side-by-side garage with ample storage round out the amenities. This large home offers a tremendous amount of flexibility and convenience. Relatively new by SF standards, the home wants for little maintenance nor compromise for today's modern lifestyle",
+      "price_per_night": 68,
+      "price_before_discount": 89,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 12,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/349/423726349_2_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/349/423726349_11_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/349/423726349_20_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/349/423726349_17_0.jpg\"]",
+      "host": 5,
+      "address": "6133 California St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94121",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "Exceptional Must See Central Richmond Home. Beautiful Edwardian charmer built in 1914 is best of all possible worlds--stunning blend of old & new--combining just the right historic touches with a modern updated chef's kitchen. X-large lot with expansive deck, mature landscaping and cobblestone garden area. Pet friendly. Nice flow to rooms 3 Bedrooms and 2 baths upstairs. Powder room main floor. 2-Car garage with space to spare. Garage widened when extensive seismic upgrade & additional improvements done in 2021. Recessed lighting, automatic garage door with auto-lock & exterior timed lighting, utility sink (dog-washing), W/D, hot water circulation pump, furnace/HVAC",
+      "price_per_night": 95,
+      "price_before_discount": 85,
+      "amenity": 16
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 13,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/233/423726233_42_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/233/423726233_5_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/233/423726233_8_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/233/423726233_16_0.jpg\"]",
+      "host": 2,
+      "address": "194 Laidley St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94131",
+      "country": "USA",
+      "max_guests": 3,
+      "rental_type": "one bedroom",
+      "bath_count": 2,
+      "description": "A rare and historic Fairmount Heights gem, The Poole-Belle property offers one of the most majestic San Francisco panoramas you will ever experience. Built in 1887 as a private estate to attorney John Poole, the property is steeped in a complex and vibrant history. Its commanding presence retains many original architectural features. One of four condominiums in the Poole-Belle estate, this one-bedroom home captures your heart the moment you step onto the porch, as you take in the dramatic setting. Exuding charm, you are immediately struck by the home's enchanting cozy and distinct spaces that seamlessly flow. A gas fireplace separates the living room from the well-appointed renovated kitchen. The dining nook provides the perfect setting for intimate dinners. Imagine waking up to the most magnificent, breathtaking views in full display every morning. The bedroom is light-filled and well proportioned, offering a seating alcove that also serves as a work station. You will be dazzled by iconic downtown San Francisco and Bay Bridge views. Sunrises are spectacular and the night view glitters. In-unit washer and dryer, exclusive-use storage space and common gardens complete this special home. Fantastic location within walking distance to Billy Goat Hill and Glen Park Canyon",
+      "price_per_night": 56,
+      "price_before_discount": 24,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 14,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/521/423726521_1_2.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/521/423726521_8_2.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/521/423726521_11_1.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/521/423726521_22_1.jpg\"]",
+      "host": 3,
+      "address": "2130 Leavenworth St #11",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94133",
+      "country": "USA",
+      "max_guests": 2,
+      "rental_type": "one bedroom",
+      "bath_count": 1,
+      "description": "Originally built in 1924, this one-of-a-kind, top-floor loft condominium offers a slice of Mediterranean heaven in a coveted 15-unit boutique building. The entry hallway unfolds into an open living space with soaring ceilings & architectural detail at every turn. Hardwood floors stretch to the edges of the dining and living room anchored by an impressive and inviting wood-burning fireplace. The kitchen with stainless steel appliances and windows to the east is an inspiring place to prepare a meal. The masterfully crafted staircase leads to an enchanting sleeping area with sweeping views of Coit Tower, The Bay Bridge and the Transamerica Building. Shared balcony off the living room provides a perfect spot for morning coffee. The common area laundry room, just across the covered hallway, offers a captivating view of iconic San Francisco. Storage room in basement for off-season items. Perfect property for a first-time homebuyer or pied-a-terre owner looking for a great City pad",
+      "price_per_night": 85,
+      "price_before_discount": 20,
+      "amenity": 19
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 15,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/406/422669406_1.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/406/422669406_6_2.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/406/422669406_13_1.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/406/422669406_19_2.jpg\"]",
+      "host": 3,
+      "address": "50 Fairview Ct",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94131",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "Welcome home! Located on a quiet cul-de-sac in desirable Midtown Terrace, western slope of the famous Twin Peaks, 50 Farview has it all: spectacular panoramic views of Twin Peaks and ocean, comfortable floor plan, ample street parking with no street cleaning restrictions, a charming backyard surrounded by greenery, and a central San Francisco location. On the main level, you will find the full kitchen renovation which includes new Viking appliances and new quartz counters. The adjoining living and dining space spill onto the sun-kissed deck and rear backyard. An updated full bathroom which features a 8 ft entire ceiling skylight and two bedrooms complete the main level. Downstairs you will find access to the two-car garage, workroom, and a spacious permitted family room and full bathroom. A short distance to Twin Peaks, where you can experience the top of the world feeling with all around spectacular views of San Francisco, numerous pet friendly trails and so much more! Close to world renowned UCSF Parnassus hospital, Castro, Haight-Ashbury and Golden Gate Park, 101 & 280 freeways, highly rated Clarendon Alternative Elementary School, and only minutes away from public transportation (bus stop half a block away:Muni line 36 to Forest Hill & Glen Park Bart Stations.",
+      "price_per_night": 14,
+      "price_before_discount": 1,
+      "amenity": 12
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 16,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/946/423721946_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/946/423721946_10_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/946/423721946_16_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/946/423721946_25_0.jpg\"]",
+      "host": 2,
+      "address": "1298 Treat Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94110",
+      "country": "USA",
+      "max_guests": 8,
+      "rental_type": "four bedroom",
+      "bath_count": 1,
+      "description": "This designer pad will come fully furnished, just move right in! Luxe 3+ BD|2BA across from Garfield Park - which recently completed a $20 million dollar renovation! This sunny, corner flat is a welcoming mix of modern and vintage in one flexible floor plan. It boasts hardwood floors, designer lighting, in-unit laundry and a large shared courtyard. Fully remodeled with spacious kitchen - custom cabinets, recessed and under cabinet lighting, stone counters, high end fixtures and stainless-steel appliances. Three bedrooms, two very generous in size with the third being a perfect guest room or home office. The home has a very flexible floor plan - 4th bed is now used as formal dining - the floor plan allows for a variety of configurations to suit your needs. Remodeled baths feature Scott Porcelain Tiles, Grohe fixtures rain shower and deep-soaking bath. Well-funded HOA. A+ location just moments to 24th Street shops, restaurants, coffee, cocktails, farmers market, BART, freeways and shuttles!",
+      "price_per_night": 62,
+      "price_before_discount": 39,
+      "amenity": 10
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 17,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/533/423726533_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/533/423726533_8_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/533/423726533_13_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/533/423726533_7_0.jpg\"]",
+      "host": 9,
+      "address": "39 Forest View Dr",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94132",
+      "country": "USA",
+      "max_guests": 6,
+      "rental_type": "three bedroom",
+      "bath_count": 1,
+      "description": "Lovely light-filled home in the highly desired Lakeshore neighborhood. This rarely available tunnel entry residence offers an ideal floorplan with three bedrooms, two and a half bathrooms on two levels. Adorned with exquisite period details, the upper level features an open and bright living room with plantation shudders and a fireplace, a beautifully designed eat-in kitchen with abundant cabinet space and a separate formal dining area. Completing this level are two spacious bedrooms, a full bathroom and a large sunroom with an additional half bathroom, perfect for a home office or nursery. The lower level includes a charming family room, full bathroom and the third bedroom. An inviting backyard provides a pleasant space for relaxing or outdoor entertaining. This prime location is conveniently close to Stern Grove, Lake Merced, Stonestown Galleria, Lakeshore Plaza, San Francisco Zoo, Ocean Beach and the unique shops and restaurants on Taraval. Easy access to Sunset Blvd, major freeways and public transportation.",
+      "price_per_night": 42,
+      "price_before_discount": 6,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 18,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/536/423725536_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/536/423725536_14_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/536/423725536_4_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/536/423725536_5_0.jpg\"]",
+      "host": 5,
+      "address": "230 Irving St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94122",
+      "country": "USA",
+      "max_guests": 8,
+      "rental_type": "four bedroom",
+      "bath_count": 1,
+      "description": "Outstanding large Edwardian in prime Inner Sunset location. Main floor has inviting foyer, living room with fireplace, large bedroom boasts box beam ceilings, fireplace & nice period built-ins. Very spacious light-filled kitchen with skylight, large dining area opens into back deck overlooking lush landscaped backyard. 2.5 baths & laundry complete this floor. Top floor has 3BRs (one BR staged as a living room), full split bath, spacious foyer and family room. Great location! Short walk to trendy Irving St shops, restaurants, UC Hospital & Golden Gate Park. Very transit friendly, easy access to Downtown and Ocean Beach via N-Judah Muni line. Garage with one-car parking and lots of storage.",
+      "price_per_night": 60,
+      "price_before_discount": 4,
+      "amenity": 18
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 19,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/523/423726523_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/523/423726523_5_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/523/423726523_11_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/523/423726523_25_0.jpg\"]",
+      "host": 9,
+      "address": "2880 Green St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94123",
+      "country": "USA",
+      "max_guests": 10,
+      "rental_type": "five bedroom",
+      "bath_count": 2,
+      "description": "Step into luxury and refinement with this rare Beaux-Arts 5-bedroom, 5 and half bath architectural masterpiece. Nestled in the coveted Cow Hollow neighborhood, this 4-level home is like walking into a European villa with inviting well-manicured gardens and terraces on every level offer sweeping, panoramic views of the Bay, Alcatraz, Angel Island and the Gold Coast. This distinguished estate is an ideal choice for those seeking a sophisticated and comfortable urban lifestyle in one of San Francisco's most desirable and residential neighborhoods. This well-appointed home boasts elegant formal entertainment rooms that seamlessly blend with relaxed casual spaces, featuring a large eat-in kitchen, formal dining room and sitting room, in-home elevator, home spa and gym, and a 2-car garage. This well-designed floor plan is perfect for entertaining large groups as well as day-to-day living. Its prime location is close to the city's popular shopping, dining, and entertainment destinations on Union, Fillmore, and Chestnut Streets. Additionally, the home is situated near yacht harbors and the Presidio National Park, renowned for its natural hiking trails and scenic beauty. Make this gem your own private retreat.",
+      "price_per_night": 83,
+      "price_before_discount": 59,
+      "amenity": 13
+    }
+  },
+  {
+    "model": "user_rest.rental",
+    "pk": 20,
+    "fields": {
+      "images": "[\"https://ssl.cdn-redfin.com/photo/9/bigphoto/896/423725896_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/896/423725896_2_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/896/423725896_13_0.jpg\",\"https://ssl.cdn-redfin.com/photo/9/bigphoto/896/423725896_25_0.jpg\"]",
+      "host": 3,
+      "address": "1288 Howard St #315",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94103",
+      "country": "USA",
+      "max_guests": 4,
+      "rental_type": "two bedroom",
+      "bath_count": 1,
+      "description": "Very spacious corner 2-bedroom, 2-bathroom with den home with walls-of-glass and tons of natural sunlight! A lush outdoor courtyard is situated just outside the door. The primary bedroom and ensuite is beautifully designed with dual vanity, 20-inch wall surround tile, and an all-glass over-sized shower enclosure. 1288 Howard is a thoughtfully conceived & luxuriously appointed new condominium complex that brings you the best of SoMa, Hayes Valley, & The Theater District. Residences are designed for how people live, work, entertain and relax. Choose what fits your lifestyle from studios/junior, one-, and two-bedroom flats, artist-style lofts, & townhomes. Luxurious interiors, designer finishes, and open floor plan set these residences in a category of their own. 1288 Howard offers superior amenities: In-unit AC, state-of-the-art fitness, doorman, business center, rooftop terrace with BBQ, firepit & TV, Garden Courtyard, while keeping HOA dues low. With its distinctive Lane, a contemporary interpretation of a European Cobblestone alley, 1288 Howard is an urban sanctuary. After enjoying the city's top restaurants, theater & entertainment, step inside 1288 Howard and experience the calming energy that brings nature to you and soothes your senses.",
+      "price_per_night": 93,
+      "price_before_discount": 24,
+      "amenity": 7
+    }
+  }
+]

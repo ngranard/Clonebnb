@@ -1,0 +1,563 @@
+[
+  {
+    "model": "user_rest.review",
+    "pk": 1,
+    "fields": {
+      "user": 7,
+      "rental": 18,
+      "comment": "Nice Apartment",
+      "rating": 4.5,
+      "date": "2022-12-12"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 2,
+    "fields": {
+      "user": 4,
+      "rental": 10,
+      "comment": "Very clean",
+      "rating": 5,
+      "date": "2023-01-18"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 3,
+    "fields": {
+      "user": 9,
+      "rental": 15,
+      "comment": "Wonderful host and beautiful space.",
+      "rating": 5,
+      "date": "2020-04-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "rental": 6,
+      "comment": "Easy check-in process and great communication.",
+      "rating": 5,
+      "date": "2022-07-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "rental": 2,
+      "comment": "Amazing location and stunning views.",
+      "rating": 5,
+      "date": "2022-11-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "rental": 4,
+      "comment": "Very clean and well-appointed, but a bit cramped.",
+      "rating": 4,
+      "date": "2020-09-18"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 7,
+    "fields": {
+      "user": 6,
+      "rental": 7,
+      "comment": "Friendly host and great location.",
+      "rating": 4.5,
+      "date": "2022-06-12"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 8,
+    "fields": {
+      "user": 6,
+      "rental": 9,
+      "comment": "Cozy and charming, but could use some updates.",
+      "rating": 3.5,
+      "date": "2022-05-23"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 9,
+    "fields": {
+      "user": 8,
+      "rental": 16,
+      "comment": "Great value for the price and good location.",
+      "rating": 5,
+      "date": "2021-08-09"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 10,
+    "fields": {
+      "user": 7,
+      "rental": 6,
+      "comment": "Very clean and comfortable, but a bit small.",
+      "rating": 4,
+      "date": "2022-10-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 11,
+    "fields": {
+      "user": 8,
+      "rental": 11,
+      "comment": "Host was friendly and easy to communicate with.",
+      "rating": 4.5,
+      "date": "2022-04-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 12,
+    "fields": {
+      "user": 10,
+      "rental": 10,
+      "comment": "Perfect location and great amenities.",
+      "rating": 5,
+      "date": "2022-05-17"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 13,
+    "fields": {
+      "user": 3,
+      "rental": 15,
+      "comment": "Lovely space, but a bit noisy at night.",
+      "rating": 2.5,
+      "date": "2022-12-13"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 14,
+    "fields": {
+      "user": 6,
+      "rental": 15,
+      "comment": "Easy check-in process and helpful host.",
+      "rating": 5,
+      "date": "2023-01-13"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 15,
+    "fields": {
+      "user": 10,
+      "rental": 13,
+      "comment": "Beautiful space and amazing views.",
+      "rating": 5,
+      "date": "2022-11-04"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 16,
+    "fields": {
+      "user": 10,
+      "rental": 11,
+      "comment": "Very clean and well-maintained, but a bit small.",
+      "rating": 4.5,
+      "date": "2022-03-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 17,
+    "fields": {
+      "user": 5,
+      "rental": 18,
+      "comment": "Great location and comfortable stay.",
+      "rating": 4,
+      "date": "2022-02-14"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 18,
+    "fields": {
+      "user": 3,
+      "rental": 16,
+      "comment": "Friendly host and easy check-in process.",
+      "rating": 4.5,
+      "date": "2022-02-28"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 19,
+    "fields": {
+      "user": 10,
+      "rental": 14,
+      "comment": "Lovely apartment with all the amenities.",
+      "rating": 4.5,
+      "date": "2022-03-30"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 20,
+    "fields": {
+      "user": 4,
+      "rental": 13,
+      "comment": "Clean and cozy, but a bit smelly.",
+      "rating": 2,
+      "date": "2022-06-18"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 21,
+    "fields": {
+      "user": 8,
+      "rental": 11,
+      "comment": "Amazing location and helpful host.",
+      "rating": 4,
+      "date": "2022-09-12"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 22,
+    "fields": {
+      "user": 2,
+      "rental": 13,
+      "comment": "Perfect for a short stay, but could use a remodel.",
+      "rating": 3,
+      "date": "2022-11-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 23,
+    "fields": {
+      "user": 9,
+      "rental": 7,
+      "comment": "Very clean and modern, but a bit too busy for me.",
+      "rating": 4,
+      "date": "2022-12-09"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 24,
+    "fields": {
+      "user": 8,
+      "rental": 8,
+      "comment": "Friendly host and great communication.",
+      "rating": 5,
+      "date": "2022-08-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 25,
+    "fields": {
+      "user": 7,
+      "rental": 4,
+      "comment": "Beautiful space and great views.",
+      "rating": 5,
+      "date": "2022-06-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 26,
+    "fields": {
+      "user": 4,
+      "rental": 19,
+      "comment": "Easy check-in process and responsive host.",
+      "rating": 5,
+      "date": "2022-05-14"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 27,
+    "fields": {
+      "user": 6,
+      "rental": 3,
+      "comment": "Spacious and comfortable, but a bit noisy.",
+      "rating": 3,
+      "date": "2022-09-29"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 28,
+    "fields": {
+      "user": 2,
+      "rental": 6,
+      "comment": "Great value for the price and convenient location.",
+      "rating": 4.5,
+      "date": "2022-08-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 29,
+    "fields": {
+      "user": 1,
+      "rental": 10,
+      "comment": "Very clean and well-appointed, but a bit cramped.",
+      "rating": 3,
+      "date": "2022-03-23"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 30,
+    "fields": {
+      "user": 9,
+      "rental": 4,
+      "comment": "Host was helpful and accommodating.",
+      "rating": 4,
+      "date": "2023-01-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 31,
+    "fields": {
+      "user": 10,
+      "rental": 13,
+      "comment": "Perfect location and cozy space.",
+      "rating": 4,
+      "date": "2022-03-03"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 32,
+    "fields": {
+      "user": 5,
+      "rental": 20,
+      "comment": "Lovely apartment with all the amenities.",
+      "rating": 5,
+      "date": "2022-06-21"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 33,
+    "fields": {
+      "user": 4,
+      "rental": 13,
+      "comment": "Clean and comfortable, but loud neighbors.",
+      "rating": 2.5,
+      "date": "2022-11-19"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 34,
+    "fields": {
+      "user": 4,
+      "rental": 6,
+      "comment": "Great value for the price and friendly host.",
+      "rating": 5,
+      "date": "2023-02-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 35,
+    "fields": {
+      "user": 1,
+      "rental": 19,
+      "comment": "Beautiful space with stunning views.",
+      "rating": 5,
+      "date": "2022-12-28"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 36,
+    "fields": {
+      "user": 3,
+      "rental": 15,
+      "comment": "Very clean and well-maintained, but a bit small.",
+      "rating": 4,
+      "date": "2022-05-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 37,
+    "fields": {
+      "user": 10,
+      "rental": 4,
+      "comment": "Friendly host and easy check-in process.",
+      "rating": 4.5,
+      "date": "2022-09-17"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 38,
+    "fields": {
+      "user": 9,
+      "rental": 11,
+      "comment": "Cozy and comfortable, but could use some updates.",
+      "rating": 3,
+      "date": "2022-10-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 39,
+    "fields": {
+      "user": 3,
+      "rental": 9,
+      "comment": "Amazing location and great amenities.",
+      "rating": 5,
+      "date": "2023-02-25"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 40,
+    "fields": {
+      "user": 1,
+      "rental": 5,
+      "comment": "Lovely apartment, but a bit noisy at night.",
+      "rating": 3,
+      "date": "2022-07-11"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 41,
+    "fields": {
+      "user": 1,
+      "rental": 10,
+      "comment": "Very clean and modern, but a bit small.",
+      "rating": 3,
+      "date": "2022-04-21"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 42,
+    "fields": {
+      "user": 5,
+      "rental": 13,
+      "comment": "Host was friendly and responsive.",
+      "rating": 4,
+      "date": "2022-01-20"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 43,
+    "fields": {
+      "user": 3,
+      "rental": 10,
+      "comment": "Easy check-in process and helpful host.",
+      "rating": 5,
+      "date": "2022-07-21"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 44,
+    "fields": {
+      "user": 2,
+      "rental": 3,
+      "comment": "Great value for the price and good location.",
+      "rating": 5,
+      "date": "2022-06-17"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 45,
+    "fields": {
+      "user": 7,
+      "rental": 20,
+      "comment": "Spacious and comfortable, but could use more amenities.",
+      "rating": 4,
+      "date": "2022-03-15"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 46,
+    "fields": {
+      "user": 6,
+      "rental": 11,
+      "comment": "Beautiful space with amazing views.",
+      "rating": 5,
+      "date": "2022-02-02"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 47,
+    "fields": {
+      "user": 2,
+      "rental": 12,
+      "comment": "Very clean and well-appointed, but a bit cramped.",
+      "rating": 3,
+      "date": "2023-01-01"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 48,
+    "fields": {
+      "user": 10,
+      "rental": 6,
+      "comment": "Perfect for a short stay and convenient location.",
+      "rating": 4,
+      "date": "2022-05-21"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 49,
+    "fields": {
+      "user": 8,
+      "rental": 18,
+      "comment": "Friendly host and great communication.",
+      "rating": 5,
+      "date": "2022-06-21"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 50,
+    "fields": {
+      "user": 3,
+      "rental": 4,
+      "comment": "Lovely space, but a bit noisy in the morning.",
+      "rating": 3,
+      "date": "2022-07-06"
+    }
+  },
+  {
+    "model": "user_rest.review",
+    "pk": 51,
+    "fields": {
+      "user": 7,
+      "rental": 1,
+      "comment": "Clean and cozy with all the amenities.",
+      "rating": 5,
+      "date": "2022-07-26"
+    }
+  }
+]

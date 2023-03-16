@@ -1,16 +1,33 @@
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/esm/Button';
+import { useNavigate } from 'react-router-dom';
 
 function AppNav({ empty = false }) {
   const { rentalId, bookingId } = useParams();
+  const [userLoggedIn, setUserLoggedIn] = useState(false);
+  useEffect(() => {
+    const logged = localStorage.getItem('userLoggedIn');
+    setUserLoggedIn(logged || false);
+  }, []);
+  const navigate = useNavigate();
+
+  const cleanLocalStorage = () => {
+    localStorage.clear();
+  };
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand
+          onClick={() => {
+            cleanLocalStorage();
+            navigate('/');
+          }}
+        >
           <img
             src="https://i.imgur.com/tozS9eM.png"
             // src="https://1000logos.net/wp-content/uploads/2023/01/Airbnb-logo.png"
@@ -19,9 +36,9 @@ function AppNav({ empty = false }) {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {!empty && (
+        {true && (
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="d-flex justify-content-between">
               <Nav.Link
                 className="nav-link active"
                 aria-current="page"
@@ -29,15 +46,8 @@ function AppNav({ empty = false }) {
               >
                 Home
               </Nav.Link>
-              <NavDropdown title="Users" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/users/signup">
-                  Sign Up
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/users/login">Sign In</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Bookings" id="basic-nav-dropdown">
+
+              {/* <NavDropdown title="Bookings" id="basic-nav-dropdown">
                 <NavDropdown.Item href={`/bookings/${bookingId}`}>
                   Booking Details
                 </NavDropdown.Item>
@@ -45,8 +55,36 @@ function AppNav({ empty = false }) {
                 <NavDropdown.Item href={`/bookings/new`}>
                   Create Booking
                 </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Rentals" id="basic-nav-dropdown">
+              </NavDropdown> */}
+              {userLoggedIn && (
+                <Nav.Link
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/rentals"
+                >
+                  Places
+                </Nav.Link>
+              )}
+              {!userLoggedIn && (
+                <NavDropdown title="Users" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/users/signup">
+                    Sign Up
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    onClick={() => {
+                      localStorage.setItem('userLoggedIn', true);
+                      setUserLoggedIn(true);
+                      navigate('/rentals');
+                    }}
+                  >
+                    Sign In
+                  </NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => cleanLocalStorage()}>
+                    Sign out
+                  </NavDropdown.Item>
+                </NavDropdown>
+              )}
+              {/* <NavDropdown title="Rentals" id="basic-nav-dropdown">
                 <NavDropdown.Item href={`/rentals/${rentalId}`}>
                   Rental Details
                 </NavDropdown.Item>
@@ -59,11 +97,11 @@ function AppNav({ empty = false }) {
                 <NavDropdown.Item href={`/rentals/${rentalId}/map`}>
                   Rental Map
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         )}
-        {empty && (
+        {!userLoggedIn && (
           <div className="d-flex align-items-center">
             <div className="me-4" style={{ fontWeight: 700 }}>
               Ready to Airbnb it?

@@ -35,7 +35,7 @@ services:
     depends_on:
       - database
     environment:
-      DATABASE_URL: postgres://service:password@database:5432/service
+      DATABASE_URL: postgres://bookings:password@database:5432/bookings
       WAIT_HOSTS: database:5432
       WAIT_TIMEOUT: 240
   rental-api:
@@ -49,7 +49,7 @@ services:
     depends_on:
       - database
     environment:
-      DATABASE_URL: postgres://service:password@database:5432/service
+      DATABASE_URL: postgres://rentals:password@database:5432/rentals
       WAIT_HOSTS: database:5432
       WAIT_TIMEOUT: 240
   user-api:
@@ -63,6 +63,6 @@ services:
     depends_on:
       - database
     environment:
-      DATABASE_URL: postgres://service:password@database:5432/service
+      DATABASE_URL: postgres://users:password@database:5432/users
       WAIT_HOSTS: database:5432
       WAIT_TIMEOUT: 240

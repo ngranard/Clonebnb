@@ -1,9 +1,11 @@
 from common.json import ModelEncoder
-from .models import User, Amenity, Rental
+from .models import User, Amenity, Rental, Bed, Bedroom, Review
 from common.json import ModelEncoder
 from django.core.serializers.json import DjangoJSONEncoder
 from django.db.models.fields import DateField
 from datetime import date
+import json
+
 
 class CustomJSONEncoder_User(DjangoJSONEncoder):
     def default(self, obj):
@@ -41,6 +43,7 @@ class UserEncoder(DjangoJSONEncoder):
             }
         return super().default(obj)
 
+
 class AmenityEncoder(ModelEncoder):
     model = Amenity
     properties = [
@@ -74,6 +77,28 @@ class AmenityEncoder(ModelEncoder):
     ]
 
 
+class BedEncoder(ModelEncoder):
+    model = Bed
+    properties = [
+        "bed_type",
+        "bed_count"
+    ]
+
+
+class ReviewEncoder(ModelEncoder):
+    model = Review
+    properties = [
+        "id",
+        "user",
+        "rating",
+        "comment",
+        "date"
+    ]
+    encoders = {
+        "user": CustomJSONEncoder_User(),
+    }
+
+
 class RentalEncoder(ModelEncoder):
     model = Rental
     properties = [
@@ -85,8 +110,37 @@ class RentalEncoder(ModelEncoder):
         "country",
         "id",
         "amenity",
+        "max_guests",
+        "rental_type",
+        "description",
+        "price_per_night",
+        "price_before_discount",
+        "images",
     ]
     encoders = {
         "amenity": AmenityEncoder(),
         "host": CustomJSONEncoder_User(),
     }
+
+    def get_extra_data(self, o):
+        if isinstance(o, Rental):
+            bedrooms = Bedroom.objects.filter(rental=o)
+            reviews = Review.objects.filter(rental=o)
+            res = []
+            for bedroom in bedrooms:
+                beds = Bed.objects.filter(bedroom=bedroom)
+                beds = [BedEncoder().encode(bed) for bed in beds]
+                reviews = Review.objects.filter(rental=o)
+
+                res.append(
+                    {
+                        "id": bedroom.id,
+                        "beds": beds,
+                    }
+                )
+            return {
+                "bedrooms": res,
+                "reviews": [ReviewEncoder().encode(review) for review in reviews]
+            }
+
+        return super().get_extra_data(o)

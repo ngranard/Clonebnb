@@ -42,7 +42,7 @@ const MainPage = () => {
               borderRadius: 30,
             }}
           >
-            <i class="fa fa-search text-danger ms-4 me-2"></i>
+            <i className="fa fa-search text-danger ms-4 me-2"></i>
             <div className="ms-2">
               <div style={{ fontWeight: 700 }}>San Francisco</div>
               <div className="text-muted">Entire place • 4 guests</div>

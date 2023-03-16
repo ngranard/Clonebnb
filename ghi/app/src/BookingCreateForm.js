@@ -52,6 +52,7 @@ export const BookingCard = ({
               name="appointment-time"
               id="appointment-time"
               className="form-control"
+              disabled
             />
             <label htmlFor="appointment-time">Start Date</label>
           </div>
@@ -64,6 +65,7 @@ export const BookingCard = ({
               name="appointment-time"
               id="appointment-time"
               className="form-control"
+              disabled
             />
             <label htmlFor="appointment-time">End Date</label>
           </div>
@@ -76,6 +78,7 @@ export const BookingCard = ({
               name="appointment-time"
               id="appointment-time"
               className="form-control"
+              disabled
             />
             <label htmlFor="appointment-time">Number of Guests</label>
           </div>
