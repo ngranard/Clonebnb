@@ -7,7 +7,10 @@ import { BookingCard } from './BookingCreateForm';
 import Carousel from './Carousel';
 import Map from './Map';
 
-const RentalDetail = () => {
+const RentalDetail = async () => {
+
+  const response = await fetch('http://localhost:8082/rentals/1');
+
   const fakeData = {
     averageRating: 5,
     title: 'Stargazing Retreat - Yosemite/ Hot Tub/Fire Pit',
