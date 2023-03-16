@@ -39,7 +39,10 @@ function App() {
         </Routes>
       </div>
       <footer className="fixed-bottom">
-        <div className="d-flex justify-content-center align-items-center p-2 bg-danger bg-opacity-25 text-muted">
+        <div
+          className="d-flex justify-content-center align-items-center p-2 text-muted"
+          style={{ backgroundColor: 'rgb(241, 207, 207)' }}
+        >
           Created with
           <i
             className="fa fa-heart-o ms-2 me-2"
