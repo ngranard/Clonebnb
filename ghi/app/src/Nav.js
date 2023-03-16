@@ -12,7 +12,8 @@ function AppNav({ empty = false }) {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="https://1000logos.net/wp-content/uploads/2023/01/Airbnb-logo.png"
+            src="https://i.imgur.com/tozS9eM.png"
+            // src="https://1000logos.net/wp-content/uploads/2023/01/Airbnb-logo.png"
             className="img-fluid"
             width="100px"
           />
@@ -32,9 +33,7 @@ function AppNav({ empty = false }) {
                 <NavDropdown.Item href="/users/signup">
                   Sign Up
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/users/signin">
-                  Sign In
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/users/login">Sign In</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
               </NavDropdown>
