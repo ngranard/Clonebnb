@@ -7,6 +7,7 @@ import { BookingCard } from './BookingCreateForm';
 import Carousel from './Carousel';
 import Map from './Map';
 import fakeData from './utils';
+import ModalPopUp from './ModalPopUp';
 
 const RentalDetail = () => {
   const [title, setTitle] = useState('');
@@ -213,9 +214,8 @@ const RentalDetail = () => {
               );
           })}
         </div>
-        <Button className="mt-5 mb-5" variant="outline-secondary">
-          Show all amenities
-        </Button>
+        <ModalPopUp message={'show all amenities'} ams={amenities} />
+
         <hr />
         <div className="mb-5"></div>
       </div>

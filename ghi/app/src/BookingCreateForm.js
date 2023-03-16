@@ -6,6 +6,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
+import BookingNewModal from './BookingModal';
 
 function BookingModal({ sDate, eDate, nGuests, show, cb }) {
   const navigate = useNavigate();
@@ -139,10 +140,18 @@ export const BookingCard = ({
           show={show}
           cb={() => handleSubmit()}
         />
+        <BookingNewModal
+          message="reserve"
+          sDate={sDate}
+          eDate={eDate}
+          nGuests={nGuests}
+          show={show}
+          setShow={setShow}
+        />
 
-        <Button variant="danger w-100" onClick={() => setShow(true)}>
+        {/* <Button variant="danger w-100" onClick={() => setShow(true)}>
           Reserve
-        </Button>
+        </Button> */}
       </Card.Body>
     </Card>
   );
