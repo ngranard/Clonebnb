@@ -1,114 +1,150 @@
 import React, { useState } from 'react';
 
 const SignupForm = () => {
+  const [username, setUserName] = useState('');
   const [firstname, setFirstName] = useState('');
+  const [password, setPassword] = useState('');
   const [lastname, setLastName] = useState('');
-  const [birthday, setBirthday] = useState('1990-01-01');
+  const [birthday, setBirthday] = useState('');
   const [photo, setPhoto] = useState('');
   const [email, setEmail] = useState('');
-  const [status, setStatus] = useState('');
-  const [join, setJoin] = useState('');
+  const [host_status, setStatus] = useState('');
+  const [is_superhost, setIsSuperhost] = useState('');
+
+
+  const handleCheckboxClick = (event) => {
+    const isChecked = event.target.checked;
+    setStatus(isChecked ? true : false);
+  };
+
+  const handleCheckboxClick2 = (event) => {
+    const isChecked = event.target.checked;
+    setIsSuperhost(isChecked ? true : false);
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const data = {};
-    data.firstname = firstname;
-    data.lastname = lastname;
-    data.birthday = birthday;
-    data.photo = photo;
-    data.email = email;
-    data.status = status;
-    data.join = join;
+    const data = {}
+    console.log(data)
+    data.username = username
+    data.password = password
+    data.first_name = firstname
+    data.last_name = lastname
+    data.birthday = birthday
+    data.photo = photo
+    data.email = email
+    data.host_status = host_status
+    data.is_superhost = is_superhost
 
-    const userUrl = 'http://localhost:8082/api/users';
+    const userUrl = 'http://localhost:8082/api/users/'
     const fetchConfig = {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify(data),
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
-    };
-    const userResponse = await fetch(userUrl, fetchConfig);
-    if (userResponse.ok) {
-      setFirstName('');
-      setLastName('');
-      setBirthday('');
-      setPhoto('');
-      setEmail('');
-      setStatus('');
-      setJoin('');
     }
-  };
+    const userResponse = await fetch(userUrl, fetchConfig)
+    await userResponse.json()
+    if (userResponse.ok) {
+      setUserName('')
+      setPassword('')
+      setFirstName('')
+      setLastName('')
+      setBirthday('')
+      setPhoto('')
+      setEmail('')
+    }
+  }
+
+  const handleUserNameChange = (event) => {
+    const value = event.target.value
+    setUserName(value)
+  }
+
+  const handlePasswordChange = (event) => {
+    const value = event.target.value
+    setPassword(value)
+  }
+
   const handleFirstNameChange = (event) => {
-    const value = event.target.value;
-    setFirstName(value);
-  };
+    const value = event.target.value
+    setFirstName(value)
+  }
+
+  const handleLastNameChange = (event) => {
+    const value = event.target.value
+    setLastName(value)
+  }
 
   const handleBirthdayChange = (event) => {
-    const value = event.target.value;
-    setBirthday(value);
-  };
+    const value = event.target.value
+    setBirthday(value)
+  }
 
   const handlePhotoChange = (event) => {
-    const value = event.target.value;
-    setPhoto(value);
-  };
+    const value = event.target.value
+    setPhoto(value)
+  }
 
   const handleEmailChange = (event) => {
-    const value = event.target.value;
-    setEmail(value);
-  };
+    const value = event.target.value
+    setEmail(value)
+  }
 
-  const handleStatusChange = (event) => {
-    const value = event.target.value;
-    setStatus(value);
-  };
-
-  const handleJoinChange = (event) => {
-    const value = event.target.value;
-    setJoin(value);
-  };
 
   return (
-    <div>
-      <div className="shadow p-4 mt-4">
-        <h1>Sign Up</h1>
-        <form onSubmit={handleSubmit}></form>
+      <div className="row">
+        <div className="offset-3 col-6">
+          <div className="shadow p-4 mt-4">
+            <h1>Sign Up</h1>
+            <form onSubmit={handleSubmit}>
 
-        <div className="form-cloating mb-3">
-          <input
-            value={firstname}
-            onChange={handleFirstNameChange}
-            name="firstname"
-            placeholder="First Name"
-            id="name"
-            required
-            type="text"
-            className="form-control"
-          />
-        </div>
+            <div className="form-cloating mb-3">
+              <input value={photo} onChange={handlePhotoChange} name="photo" placeholder="Upload Photo" id="Photo" required type="url" className="form-control" />
+            </div>
 
-        <div className="form-floating mb-3">
-          <input
-            value={birthday}
-            placeholder="Appointment Time"
-            required
-            type="date"
-            name="appointment-time"
-            id="appointment-time"
-            className="form-control"
-          />
-          <label htmlFor="appointment-time">
-            Birthday<span className="text-muted ms-2">(optional)</span>
-          </label>
+            <div className="form-cloating mb-3">
+              <input value={username} onChange={handleUserNameChange} name="username" placeholder="Username" id="username" required type="text" className="form-control" />
+            </div>
+
+            <div className="form-cloating mb-3">
+              <input value={password} onChange={handlePasswordChange} name="username" placeholder="Pasword" id="username" required type="password" className="form-control" />
+            </div>
+
+            <div className="form-cloating mb-3">
+              <input value={firstname} onChange={handleFirstNameChange} name="firstname" placeholder="First Name" id="firstname" required type="text" className="form-control" />
+            </div>
+
+            <div className="form-cloating mb-3">
+              <input value={lastname} onChange={handleLastNameChange} name="lastname" placeholder="Last Name" id="lastname" required type="text" className="form-control" />
+            </div>
+
+            <div className="form-cloating mb-3">
+              <input value={email} onChange={handleEmailChange} name="email" placeholder="E-mail Address" id="lastname" required type="email" className="form-control" />
+            </div>
+
+            <div className="form-cloating mb-3">
+              <input value={birthday} onChange={handleBirthdayChange} name="Birthday" placeholder="Birthday" id="birthday" required type="date" className="form-control" />
+              <label>Date of Birth</label>
+            </div>
+
+            <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={handleCheckboxClick}/>
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Check the Box if Host</label>
+            </div>
+
+            <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={handleCheckboxClick2}/>
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Check the Box if Superhost</label>
+            </div>
+
+            <button className="btn btn-primary">Submit</button>
+          </form>
         </div>
-        <button type="button" className="btn btn-primary">
-          Sign Up
-        </button>
       </div>
-    </div>
-  ); // end of return
-}; //end of function
+    </div>);// end of return
+};//end of function
 
 export default SignupForm;

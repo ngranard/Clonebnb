@@ -12,6 +12,8 @@ from .encoders import CustomJSONEncoder_User, UserEncoder, RentalEncoder, Amenit
 def user_to_json(user):
     return json.dumps(user, cls=UserEncoder)
 
+def user_to_json(user):
+    return json.dumps(user, cls=UserEncoder)
 
 @require_http_methods(["GET", "POST"])
 def api_user_list(request):
