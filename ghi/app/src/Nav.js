@@ -15,6 +15,10 @@ function AppNav({ empty = false }) {
     setUserLoggedIn(logged || false);
   }, []);
   const navigate = useNavigate();
+  useEffect(() => {
+    const logged = localStorage.getItem('userLoggedIn');
+    setUserLoggedIn(logged || false);
+  }, [navigate]);
 
   const cleanLocalStorage = () => {
     localStorage.clear();
@@ -71,18 +75,26 @@ function AppNav({ empty = false }) {
                     Sign Up
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={() => {
-                      localStorage.setItem('userLoggedIn', true);
-                      setUserLoggedIn(true);
-                      navigate('/rentals');
-                    }}
+                    href="/users/login"
+                    // onClick={() => {
+                    //   localStorage.setItem('userLoggedIn', true);
+                    //   setUserLoggedIn(true);
+                    //   navigate('/rentals');
+                    // }}
                   >
                     Sign In
                   </NavDropdown.Item>
-                  <NavDropdown.Item onClick={() => cleanLocalStorage()}>
-                    Sign out
-                  </NavDropdown.Item>
                 </NavDropdown>
+              )}
+              {userLoggedIn && (
+                <Nav.Link
+                  onClick={() => {
+                    cleanLocalStorage();
+                    setUserLoggedIn(false);
+                  }}
+                >
+                  Sign out
+                </Nav.Link>
               )}
               {/* <NavDropdown title="Rentals" id="basic-nav-dropdown">
                 <NavDropdown.Item href={`/rentals/${rentalId}`}>

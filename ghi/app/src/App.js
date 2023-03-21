@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage';
 import Nav from './Nav';
-import LoginForm from './LoginForm';
+import Signin from './Signin';
 import SignupForm from './SignupForm';
 import RentalList from './RentalList';
 import RentalDetail from './RentalDetail';
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/users">
             {/* <Route path="" element={<UserList />} /> */}
-            <Route path="login" element={<LoginForm />} />
+            <Route path="login" element={<Signin />} />
             <Route path="signup" element={<SignupForm />} />
             {/* <Route path=":userId" element={<UserDetail />} /> */}
             {/* <Route path=":userId/edit" element={<userEditForm />} /> */}
